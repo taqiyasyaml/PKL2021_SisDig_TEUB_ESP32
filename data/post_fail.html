@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap.css" rel="stylesheet">
+    <title>ESP32 Matrix Module Setup | Fail</title>
+</head>
+
+<body>
+    <div class="container-md">
+        <div class="row p-3">
+            <div class="alert alert-danger" role="alert"> Gagal menyimpan pengaturan. </div>
+            <div class="col-12">
+                <div class="card">
+                    <form method="POST">
+                        <h5 class="card-header">Pengaturan Modul</h5>
+                        <div class="card-body">
+                            <div> <label for="ssid" class="form-label">Nama SSID</label> <input type="text" name="ssid"
+                                    class="form-control" id="ssid" placeholder="Nama SSID" autocomplete="username">
+                            </div>
+                            <div> <label for="password" class="form-label">Kata Sandi</label> <input type="password"
+                                    name="password" class="form-control" id="password" placeholder="Kata Sandi"
+                                    autocomplete="new-password"> </div>
+                            <div> <label for="ws" class="form-label">URL WebSocket</label> <input type="text" name="ws"
+                                    class="form-control" id="ws"
+                                    placeholder="ws://{alamatserver}/device/{iddevice} contoh: ws://192.168.4.1/device/123_abc">
+                            </div>
+                            <diV class="my-3">Copyright © Taqiy Asyam 2022</diV>
+                        </div>
+                        <div class="card-footer"><button type="submit" class="btn btn-primary">Simpan</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap.js"></script>
+</body>
+
+</html>
